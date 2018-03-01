@@ -1,0 +1,50 @@
+---
+title: "MyFirstRMarkdown"
+author: "Frank"
+date: "02/14/2018"
+output: 
+  html_document: 
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+--- 
+```{r}
+# toc means to include table of content
+# toc_float means to include fancier table of content
+
+# click knit to show the markdown in, for instance, html (what you've chosen)
+```
+
+# Single hashtag is a large header
+
+Remember the hashtag? You don't need it to enter text normally!
+
+## is a smaller header
+why doesn't this work?
+
+```{r}
+# backtick is to the left of your 1 key
+# i do need hashtags inside of code chunks to neter text!
+# shortcut to insert a code chunk: command + option + i
+
+2+2
+```
+### medium header
+**BOLD** words by wrapping them in double stars.
+
+_ITALICIZE_ words by wrapping them in underscores.
+
+#### medium-small header
+use the `backtick` to highlight text as code.
+
+For example, i really like the `mean` function in R.
+
+##### small header for puppies
+click [here](https://montilab.psych.ucla.edu/wp-content/uploads/sites/49/2016/04/Motion-connectivity-analyses2.pdf) for puppies!
+
+# this is section 2
+```{r}
+library(ggplot2) #load it in but no need to install.
+
+```
+
